@@ -1,4 +1,5 @@
 :root {
+    --primary-color: #EE4D2D;
     --white-color: #fff;
     --black-color: #000;
     --text-color: #333;
@@ -10,7 +11,7 @@
 
 html {
     /* Mặc định là 16px, 62.5 là 10 pixel 
-         16pixel là 1.6rem nếu set 62.5 
+         16pixel là 1.6rem nếu set 62.5 , 15 pixel = 1.5
         font-size: 1.6rem;*/
     font-size: 62.5%;
     line-height: 1.6rem;
@@ -31,4 +32,14 @@ html {
 .grid__row {
     display: flex;
     flex-wrap: wrap;
+}
+
+
+/* Animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
 }
