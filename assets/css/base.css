@@ -24,6 +24,8 @@ html {
     box-sizing: border-box;
 }
 
+
+/* Responsive */
 .grid {
     width: 1200px;
     max-width: 100%;
@@ -38,7 +40,6 @@ html {
     display: flex;
     flex-wrap: wrap;
 }
-
 
 /* Animation */
 @keyframes fadeIn {
